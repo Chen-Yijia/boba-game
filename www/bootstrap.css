@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+/*help page*/
+
+.help-page-element{
+  background-color: #FFF89A !important;
+  border-radius: 0px 0px 15px 15px!important;
+  height: 650px !important;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  text-align: justify
+}
+
+.help-page-content {
+  width: 100% !important;
+  font-size: 20px !important;
+}
+
+/*
+.shiny-html-output {
+  align-content: center !important;
+  aria-live="polite";
+  padding-top: 30px
+}
+*/
+
+.well.previous-data-plot {
+  height: 240px !important;
+}
+
+.page3-content {
+  padding-top: 75px;
+}
+
+.page6-content {
+  padding-top: 50px;
+}
+
+/*stats bar*/
+.day-number-and-matrix {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  background-color: #FFF89A !important;
+  margin-top: -7px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  border-radius: 15px !important;
+  height: 45px !important;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  display: table;
+  width: 100% !important;
+}
+
+.day-number-and-matrix .day,
+.day-number-and-matrix .accum-profit-word,
+.day-number-and-matrix .accum-profit-bar,
+.day-number-and-matrix .accum-waste,
+.day-number-and-matrix .accum-points {
+  display: table-cell !important; 
+  vertical-align: middle !important;
+}
+
+
+.progress-group .progress {
+  width: 300px !important;
+  /*display: flex;*/
+  /*align-items: center*/
+  margin: 10px;
+}
+
+.progress-bar {
+  background-color: #FF8AAE !important;
+}
+
+/*current & action data*/
+
+.row.current-and-next-day {
+  padding-left: 15px !important;
+  padding-right: 45px !important;
+}
+
+
+/*current data*/
+.current-data-body {
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+}
+
+.current-data-element-wrap {
+  text-align: center !important;
+}
+
+.current-price-two {
+  margin-right: 5px !important;
+  margin-left:  5px !important;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.current-quantity-three {
+  margin-right: 5px !important;
+  margin-left:  5px !important;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.current-data-header {
+  margin-bottom: 20px !important;
+}
+
+
+.current-day-display-panel {
+  background-color: #FFF89A !important;
+  border-radius: 15px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-bottom: 5px !important;
+  height: 475px !important;
+  /*margin-left: 15px !important;*/
+} 
+
+
+.current-quantity {
+  margin-top: 30px !important;
+}
+
+.extra-line-display {
+  margin-top: 20px !important;
+}
+
+
+/* button*/
+
+.bttn-pill.bttn-default {
+    background: #fff !important;
+    color: #428bca !important;
+    width: 70% !important;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+.notification-btn {
+  margin: 0 auto !important;
+  display: block !important;
+}
+
+.extra-line {
+  height: 315px !important;
+}
+
+/*slider*/
+
+.irs-bar.irs-bar--single {
+  border-top: 1px solid #9ADCFF;
+  border-bottom: 1px solid #9ADCFF;
+  background: #9ADCFF;
+}
+
+.irs--shiny .irs-single {
+  background-color: #9ADCFF !important;
+}
+
+.irs--shiny .irs-handle {
+  background-color: #FF8AAE !important;
+}
+
+/*notification*/
+
+.col-md-10 {
+  height: 268px !important;
+  width: 100% !important;
+}
+
+.card-counter {
+  background-color: #9ADCFF !important;
+  height: 100% !important;
+}
+
+.card-counter.info {
+  background-color: #9ADCFF !important;
+  height: 100% !important;
+  color: white !important;
+}
+
+.count-name {
+  opacity: 1 !important;
+  padding-left: 35px !important;
+  padding-top: 35px !important;
+}
+
+
+.shiny-plot-output {
+  height: 230px !important;
+}
+
+
+
+.row.plot-and-notification {
+  margin-top: 5px !important;
+}
+
+/*
+
+.row.current-and-next-day {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+} */
+
+
+/*change img positioning*/
+.img-container {
+  height: 62px !important;
+  position: relative !important;
+}
+
+.shiny-html-output.quantityimg.shiny-bound-output, 
+.shiny-html-output.priceimg.shiny-bound-output,
+.shiny-html-output.currentpriceimg.shiny-bound-output,
+.shiny-html-output.currentquantityimg.shiny-bound-output
+{
+  margin: 0 !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  -ms-transform: translate(-50%, -50%) !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+
+
+
+/* panel header */
+
+.panel-header {
+  /*border-bottom: 3px solid #ffb0c6 !important;*/
+  padding: 6px !important;
+  padding-left: 8px !important;
+  border-radius: 15px 15px 0px 0px!important;
+  width: 100% !important;
+  background-color: #ffb0c6;
+}
+
+/* quantity select */
+.quantity-select {
+  margin-right: 5px !important;
+  margin-left:  5px !important;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+/* price-select  */
+.price-select {
+  margin-right: 5px !important;
+  margin-left:  5px !important;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+/* img div */
+
+/* slider div*/
+.form-group.shiny-input-container{
+  margin-top: -17px !important;
+}
+
+.well {
+  background-color: #FFF89A !important;
+  padding: 8px 0px 0px;
+  border-width: 0px !important;
+  box-shadow: none;
+  margin-bottom: 0px !important;
+}
+
+
+/*edit the action panel*/
+
+.action-panel-body {
+  background-color: #FFF89A !important;
+  border-radius: 15px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-bottom: 5px !important;
+  height: 475px !important;
+  /*margin-left: 15px !important;*/
+}
+
+.col-sm-6.milktea-price-plot {
+  padding: 0px !important;
+}
+
+.col-sm-6.fruitstea-price-plot {
+  padding: 0px !important;
+}
+
+
+/*html formatting*/
+
+body {
+  background-color: #dbf6ff;
+  font-family: 'Yusei Magic', sans-serif;
+  color: black; /* text color */
+}
+
+/* Change header text to imported font */
+h2 {
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+.dropdown-menu li {
+  background-color: white !important;
+}
+
+
+ul.nav {
+   margin: 0px auto;
+   padding: 0px;
+   font-family: "Yusei Magic";
+   color: #272a2e;
+ }
+
+ ul.nav li {
+   background-color: #ffb0c6; /*Example background color*/
+   color: black !important;
+   margin: 0px auto;
+ }
+ 
+ .navbar {
+   background-color: #ffb0c6;
+   color: black !important;
+ }
+ 
+ .navbar-header {
+   font-family: "Yusei Magic";
+   color: black !important;
+ }
+ 
+ 
+ hr {
+   margin-top: 5px !important;
+   margin-bottom: 5px !important;
+ }
+ 
